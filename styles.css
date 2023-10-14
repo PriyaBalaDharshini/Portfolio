@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Jost:wght@300;400;500&family=Poppins:wght@300&display=swap');
+/* font-family: 'Inspiration', cursive;
+font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: courtery;
+}
+
+/* nav bar */
+.navbar-nav {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Progress bar */
+.progress {
+    height: 30px;
+    border-radius: 50px;
+    transition: all 0.3 ease;
+    font-size: 15px;
+}
+
+.progress:hover {
+    transform: scale(1.1);
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+img {
+    border-radius: 20px;
+
+}
